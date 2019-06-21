@@ -39,7 +39,6 @@ nav>ul>li>a:hover {
     float          : left;
     text-decoration: none;
     font-size      : 24px;
-    padding        : 15.5px 0 15.5px 0;
 }
 
 .RS {
@@ -60,5 +59,18 @@ nav {
 }
 
 .top-nav-bar {
-    padding: 10px 16px;
+    /* padding : 0 16px; */
+    position: fixed;
+    width   : 100%;
+}
+
+.banner {
+    height             : 515px;
+    background-position: center center;
+    background-size    : cover;
+}
+
+.banner .mask {
+    height          : 515px;
+    background-color: rgb(0, 0, 0, 0.8)
 }
