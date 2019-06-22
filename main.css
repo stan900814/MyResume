@@ -1,34 +1,38 @@
 .clearfix::after {
     display: block;
     content: "";
-    clear: both;
+    clear  : both;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin    : 0;
+    padding   : 0;
+    background: #efefef;
 }
 
 a {
     text-decoration: none;
 }
 
-nav ul>li {
-    float: left;
+li {
     list-style: none;
+}
+
+nav ul>li {
+    float : left;
     margin: 0 17px 0 17px;
 
 }
 
 nav>ul>li>a {
     text-decoration: none;
-    color: rgb(182, 182, 182);
-    font-size: 12px;
-    padding: 5px 0 5px 0;
-    font-weight: bold;
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    display: block;
+    color          : rgb(182, 182, 182);
+    font-size      : 12px;
+    padding        : 5px 0 5px 0;
+    font-weight    : bold;
+    border-top     : 3px solid transparent;
+    border-bottom  : 3px solid transparent;
+    display        : block;
 }
 
 nav>ul>li>a:hover {
@@ -36,18 +40,18 @@ nav>ul>li>a:hover {
 }
 
 .top-nav-bar>a {
-    float: left;
+    float          : left;
     text-decoration: none;
-    font-size: 24px;
+    font-size      : 24px;
 }
 
 .RS {
-    color: #e6686a;
+    color      : #e6686a;
     font-family: Arial Black;
 }
 
 .top-nav-bar .card {
-    color: #9a9da2;
+    color      : #9a9da2;
     font-family: Arial Black;
 
 
@@ -58,52 +62,52 @@ nav {
 }
 
 .top-nav-bar {
-    padding: 16px 0;
+    padding : 16px 0;
     position: fixed;
-    width: 100%;
+    width   : 100%;
     position: fixed;
-    top: 0;
-    left: 0;
+    top     : 0;
+    left    : 0;
 }
 
 .banner {
-    height: 515px;
+    height             : 515px;
     background-position: center center;
-    background-size: cover;
+    background-size    : cover;
 }
 
 .banner .mask {
-    height: 515px;
+    height          : 515px;
     background-color: rgb(0, 0, 0, 0.8)
 }
 
 .userCard {
     /* border          : 1px solid red; */
-    max-width: 940px;
-    margin: 0 auto;
+    max-width       : 940px;
+    margin          : 0 auto;
     background-color: #fff;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.52);
+    box-shadow      : 0px 1px 3px 0px rgba(0, 0, 0, 0.52);
 }
 
 .welcome {
     background-color: #e6686a;
-    color: white;
-    position: relative;
-    display: inline-block;
-    line-height: 22px;
-    padding: 4px 16px;
+    color           : white;
+    position        : relative;
+    display         : inline-block;
+    line-height     : 22px;
+    padding         : 4px 16px;
 }
 
 .welcome .triangle {
-    display: block;
-    border: 10px solid transparent;
-    width: 0px;
-    height: 0px;
+    display          : block;
+    border           : 10px solid transparent;
+    width            : 0px;
+    height           : 0px;
     border-left-color: #e6686a;
-    border-top-width: 0px;
-    position: absolute;
-    left: 4px;
-    top: 30px;
+    border-top-width : 0px;
+    position         : absolute;
+    left             : 4px;
+    top              : 30px;
 }
 
 .picture {
@@ -112,9 +116,9 @@ nav {
 }
 
 .text {
-    float: left;
+    float      : left;
     margin-left: 65px;
-    width: 470px;
+    width      : 470px;
 }
 
 .pictureAndtext {
@@ -122,42 +126,42 @@ nav {
 }
 
 .userCard dl dt {
-    float: left;
-    width: 30%;
-    margin: 0;
-    font-size: 16px;
+    float      : left;
+    width      : 30%;
+    margin     : 0;
+    font-size  : 16px;
     font-weight: bold;
-    padding: 5px 0;
+    padding    : 5px 0;
 }
 
 .userCard dl dd {
-    float: left;
-    width: 70%;
-    margin: 0;
-    color: #9da0a7;
+    float  : left;
+    width  : 70%;
+    margin : 0;
+    color  : #9da0a7;
     padding: 5px 0;
 }
 
 .media {
     /* max-width       : 940px; */
     background-color: #E6686A;
-    text-align: center;
+    text-align      : center;
 }
 
 .media svg {
-    width: 30px;
-    height: 30px;
-    fill: white;
+    width         : 30px;
+    height        : 30px;
+    fill          : white;
     vertical-align: top;
 }
 
 .media a {
-    display: inline-block;
+    display      : inline-block;
     border-radius: 50%;
-    width: 40px;
-    line-height: 30px;
-    margin: 16px;
-    padding: 5px 0;
+    width        : 40px;
+    line-height  : 30px;
+    margin       : 16px;
+    padding      : 5px 0;
 
 }
 
@@ -170,14 +174,14 @@ main {
 }
 
 .download {
-    font-size: 14px;
-    line-height: 16px;
-    padding: 21px 55px;
-    border: 1px solid #cdcfd1;
+    font-size    : 14px;
+    line-height  : 16px;
+    padding      : 21px 55px;
+    border       : 1px solid #cdcfd1;
     border-radius: 3px;
-    color: #3d4451;
-    font-weight: bold;
-    transition: box-shadow 0.2s;
+    color        : #3d4451;
+    font-weight  : bold;
+    transition   : box-shadow 0.2s;
 }
 
 .download:hover {
@@ -186,13 +190,58 @@ main {
 
 .rapper {
     text-align: center;
-    margin: 50px 0;
+    margin    : 50px 0;
 }
 
 .self-introduction {
-    max-width: 940px;
-    margin: 0 auto;
-    text-align: center;
+    max-width  : 940px;
+    margin     : 0 auto;
+    text-align : center;
     line-height: 1.8;
-    font-size: 18px;
+    font-size  : 18px;
+}
+
+.skills>ol {
+    background: white;
+    width     : 940px;
+    margin    : 0 auto;
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+h2 {
+    text-align : center;
+    font-size  : 34px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.skills>ol>li>h3 {
+    font-size    : 14px;
+    line-height  : 1.1;
+    padding-right: 40px;
+    font-weight  : normal;
+}
+
+.skills>ol>li {
+    float        : left;
+    width        : 50%;
+    box-sizing   : border-box;
+    padding-right: 40px;
+    margin-top   : 10px;
+
+}
+
+.progressBar {
+    height       : 5px;
+    background   : #FAE1E1;
+    border-radius: 2px;
+    margin       : 4px 0 40px;
+}
+
+.progress {
+    height    : 3px;
+    width     : 50%;
+    background: #E6686A;
 }
